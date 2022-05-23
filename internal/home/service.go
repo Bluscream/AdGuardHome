@@ -433,8 +433,8 @@ EnvironmentFile=-/etc/sysconfig/{{.Name}}
 WantedBy=multi-user.target
 `
 
-// Note: we should keep it in sync with the template from service_sysv_linux.go file
-// Use "ps | grep -v grep | grep $(get_pid)" because "ps PID" may not work on OpenWrt
+// Note: we should keep it in sync with the template from service_sysv_linux.go
+// file.
 const sysvScript = `#!/bin/sh
 # For RedHat and cousins:
 # chkconfig: - 99 01
@@ -465,7 +465,7 @@ get_pid() {
 }
 
 is_running() {
-    [ -f "$pid_file" ] && ps | grep -v grep | grep $(get_pid) > /dev/null 2>&1
+    [ -f "$pid_file" ] && cat /proc/$(get_pid)/stat > /dev/null 2>&1
 }
 
 case "$1" in
