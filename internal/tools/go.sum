@@ -110,3 +110,5 @@ mvdan.cc/gofumpt v0.5.0 h1:0EQ+Z56k8tXjj/6TQD25BFNKQXpCvT0rnansIc7Ug5E=
 mvdan.cc/gofumpt v0.5.0/go.mod h1:HBeVDtMKRZpXyxFciAirzdKklDlGu8aAy1wEbH5Y9js=
 mvdan.cc/unparam v0.0.0-20230815095028-f7c6fb1088f0 h1:NAENkqZ+Xofhqs4R4Af+i3HpZj1M23SFn/lHfRh1D4E=
 mvdan.cc/unparam v0.0.0-20230815095028-f7c6fb1088f0/go.mod h1:flQN1deud3vIpPdF88533Lpp/MvzGLgPIPjB1kgBf4I=
+mvdan.cc/unparam v0.0.0-20230917202934-3ee2d22f45fb h1:xiF91GJnDSbyPdiZB5d52N2VpZfGhjM4Ji75cjzuooQ=
+mvdan.cc/unparam v0.0.0-20230917202934-3ee2d22f45fb/go.mod h1:ZzZjEpJDOmx8TdVU6umamY3Xy0UAQUI2DHbf05USVbI=

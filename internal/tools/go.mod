@@ -16,7 +16,7 @@ require (
 	golang.org/x/vuln v1.0.1
 	honnef.co/go/tools v0.4.5
 	mvdan.cc/gofumpt v0.5.0
-	mvdan.cc/unparam v0.0.0-20230815095028-f7c6fb1088f0
+	mvdan.cc/unparam v0.0.0-20230917202934-3ee2d22f45fb
 )
 
 require (
